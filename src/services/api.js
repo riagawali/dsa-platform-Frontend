@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000"; // Your backend base URL
+const API_URL = "https://edtech-10dl.onrender.com"; // Your backend base URL
 
 // Fetch questions based on topic and difficulty
 export const getQuestions = async (topic, difficulty) => {
